@@ -4,798 +4,829 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Work From Home | Typing & Writing Projects</title>
-
-<meta name="description" content="Explore flexible work from home typing, writing, PDF conversion and proofreading projects.">
+<title>Work From Home Typing & Writing Jobs</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+:root{
+  --primary:#2563eb;
+  --primary2:#4f46e5;
+  --dark:#111827;
+  --text:#344054;
+  --muted:#667085;
+  --light:#f8fafc;
+  --border:#e5e7eb;
+  --green:#16a34a;
+  --white:#fff;
+}
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+  scroll-behavior:smooth;
 }
 
 body{
-    font-family:Inter,Arial,sans-serif;
-    background:#f7f9fc;
-    color:#172033;
-    line-height:1.6;
+  font-family:Inter,Arial,sans-serif;
+  color:var(--dark);
+  background:#fff;
+  line-height:1.6;
 }
 
 a{
-    text-decoration:none;
+  text-decoration:none;
 }
 
 .container{
-    width:min(1120px,92%);
-    margin:auto;
+  width:min(1120px,92%);
+  margin:auto;
 }
 
 /* HEADER */
+
 header{
-    position:sticky;
-    top:0;
-    z-index:999;
-    background:#fff;
-    border-bottom:1px solid #e7ebf0;
+  position:sticky;
+  top:0;
+  z-index:999;
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
 }
 
 .nav{
-    min-height:72px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+  height:72px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 
 .logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    color:#111827;
-    font-size:18px;
-    font-weight:800;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--dark);
+  font-size:17px;
+  font-weight:800;
 }
 
 .logo-icon{
-    width:42px;
-    height:42px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:12px;
-    background:linear-gradient(135deg,#2563eb,#7c3aed);
-    color:#fff;
-    font-size:21px;
+  width:42px;
+  height:42px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:12px;
+  background:linear-gradient(135deg,var(--primary),var(--primary2));
+  color:white;
+  font-size:21px;
 }
 
 .nav-links{
-    display:flex;
-    align-items:center;
-    gap:25px;
+  display:flex;
+  align-items:center;
+  gap:24px;
 }
 
 .nav-links a{
-    color:#667085;
-    font-size:14px;
-    font-weight:600;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:600;
 }
 
 .nav-links a:hover{
-    color:#2563eb;
+  color:var(--primary);
 }
 
-.nav-join{
-    background:#2563eb !important;
-    color:#fff !important;
-    padding:11px 18px;
-    border-radius:9px;
+.nav-cta{
+  color:white!important;
+  background:var(--primary);
+  padding:10px 17px;
+  border-radius:8px;
 }
 
 /* HERO */
+
 .hero{
-    padding:80px 0;
-    background:
-    radial-gradient(circle at 90% 10%,rgba(37,99,235,.15),transparent 30%),
-    radial-gradient(circle at 10% 90%,rgba(124,58,237,.12),transparent 30%),
-    #fff;
+  padding:82px 0 70px;
+  background:
+    radial-gradient(circle at 85% 15%,rgba(37,99,235,.12),transparent 30%),
+    radial-gradient(circle at 10% 80%,rgba(79,70,229,.08),transparent 28%);
 }
 
 .hero-grid{
-    display:grid;
-    grid-template-columns:1.1fr .9fr;
-    gap:55px;
-    align-items:center;
+  display:grid;
+  grid-template-columns:1.12fr .88fr;
+  gap:60px;
+  align-items:center;
 }
 
 .badge{
-    display:inline-flex;
-    padding:8px 13px;
-    border-radius:50px;
-    background:#eff6ff;
-    border:1px solid #dbeafe;
-    color:#2563eb;
-    font-size:12px;
-    font-weight:800;
-    margin-bottom:20px;
+  display:inline-flex;
+  padding:7px 13px;
+  border-radius:50px;
+  background:#eff6ff;
+  color:#2563eb;
+  border:1px solid #dbeafe;
+  font-size:11px;
+  font-weight:700;
+  margin-bottom:18px;
 }
 
 .hero h1{
-    font-size:clamp(38px,5vw,61px);
-    line-height:1.08;
-    letter-spacing:-2px;
-    color:#101828;
-    margin-bottom:20px;
+  font-size:clamp(39px,5vw,60px);
+  line-height:1.08;
+  letter-spacing:-2px;
+  margin-bottom:18px;
 }
 
 .hero h1 span{
-    color:#2563eb;
+  display:block;
+  color:var(--primary);
 }
 
 .hero-text{
-    max-width:650px;
-    color:#667085;
-    font-size:16px;
-    margin-bottom:28px;
+  color:var(--muted);
+  font-size:15px;
+  max-width:650px;
+  margin-bottom:28px;
 }
 
 .buttons{
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
 }
 
 .btn{
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    padding:14px 21px;
-    border-radius:10px;
-    font-size:14px;
-    font-weight:800;
-    transition:.25s;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  padding:13px 20px;
+  border-radius:9px;
+  font-size:12px;
+  font-weight:700;
+  transition:.25s;
 }
 
 .btn-primary{
-    background:#2563eb;
-    color:#fff;
-    box-shadow:0 8px 22px rgba(37,99,235,.2);
+  color:#fff;
+  background:var(--primary);
+  box-shadow:0 8px 22px rgba(37,99,235,.18);
 }
 
 .btn-primary:hover{
-    background:#1d4ed8;
-    transform:translateY(-2px);
+  transform:translateY(-2px);
+  background:#1d4ed8;
 }
 
-.btn-light{
-    color:#344054;
-    background:#fff;
-    border:1px solid #d9e0e8;
+.btn-secondary{
+  color:var(--text);
+  background:#fff;
+  border:1px solid var(--border);
 }
+
+.btn-secondary:hover{
+  background:#f8fafc;
+}
+
+/* HERO CARD */
 
 .hero-card{
-    background:#fff;
-    border:1px solid #e4e9ef;
-    border-radius:24px;
-    padding:27px;
-    box-shadow:0 22px 60px rgba(16,24,40,.09);
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:27px;
+  box-shadow:0 22px 55px rgba(16,24,40,.08);
 }
 
-.card-head{
-    display:flex;
-    gap:14px;
-    align-items:center;
-    margin-bottom:22px;
+.hero-card-title{
+  display:flex;
+  align-items:center;
+  gap:13px;
+  margin-bottom:20px;
 }
 
-.card-icon{
-    width:53px;
-    height:53px;
-    border-radius:14px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:#eff6ff;
-    font-size:25px;
+.hero-icon{
+  width:52px;
+  height:52px;
+  border-radius:14px;
+  background:#eff6ff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:24px;
 }
 
-.card-head h3{
-    font-size:18px;
+.hero-card h3{
+  font-size:16px;
 }
 
-.card-head p{
-    font-size:12px;
-    color:#667085;
+.hero-card small{
+  color:var(--muted);
+  font-size:10px;
 }
 
-.hero-items{
-    display:grid;
-    gap:11px;
+.project-status{
+  display:grid;
+  gap:10px;
 }
 
-.hero-item{
-    display:flex;
-    justify-content:space-between;
-    padding:13px 14px;
-    background:#f8fafc;
-    border-radius:11px;
-    font-size:13px;
+.status-row{
+  display:flex;
+  justify-content:space-between;
+  padding:12px 14px;
+  background:#f8fafc;
+  border-radius:10px;
+  font-size:11px;
 }
 
 .available{
-    color:#16a34a;
-    font-weight:800;
+  color:var(--green);
+  font-weight:700;
 }
 
 /* STATS */
+
 .stats{
-    background:#fff;
-    border-top:1px solid #edf0f4;
-    border-bottom:1px solid #edf0f4;
-    padding:25px 0;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:25px 0;
 }
 
 .stats-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    text-align:center;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  text-align:center;
 }
 
 .stat h3{
-    font-size:27px;
+  font-size:27px;
 }
 
 .stat p{
-    color:#667085;
-    font-size:12px;
+  color:var(--muted);
+  font-size:10px;
 }
 
-/* SECTIONS */
+/* COMMON */
+
 section{
-    padding:82px 0;
+  padding:82px 0;
 }
 
-.section-head{
-    max-width:700px;
-    margin:0 auto 42px;
-    text-align:center;
+.section-heading{
+  text-align:center;
+  max-width:720px;
+  margin:0 auto 44px;
 }
 
-.section-label{
-    color:#2563eb;
-    font-size:12px;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    font-weight:800;
+.label{
+  color:var(--primary);
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:10px;
+  font-weight:800;
 }
 
-.section-head h2{
-    font-size:clamp(29px,4vw,42px);
-    line-height:1.15;
-    margin:9px 0 12px;
+.section-heading h2{
+  font-size:clamp(29px,4vw,41px);
+  line-height:1.15;
+  margin:8px 0 12px;
 }
 
-.section-head p{
-    color:#667085;
-    font-size:14px;
+.section-heading p{
+  color:var(--muted);
+  font-size:12px;
 }
 
 /* ABOUT */
-.about-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:18px;
+
+.about-box{
+  max-width:900px;
+  margin:auto;
+  background:#f8fafc;
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:30px;
 }
 
-.info-card{
-    background:#fff;
-    border:1px solid #e7ebf0;
-    padding:24px;
-    border-radius:17px;
+.about-box h3{
+  font-size:21px;
+  margin-bottom:9px;
 }
 
-.info-icon{
-    width:48px;
-    height:48px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:13px;
-    background:#eff6ff;
-    font-size:23px;
-    margin-bottom:15px;
-}
-
-.info-card h3{
-    font-size:16px;
-    margin-bottom:7px;
-}
-
-.info-card p{
-    color:#667085;
-    font-size:12px;
+.about-box p{
+  color:var(--muted);
+  font-size:12px;
 }
 
 /* PROJECTS */
+
 .projects{
-    background:#f7f9fc;
+  background:#f8fafc;
 }
 
 .project-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:18px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
 }
 
 .project{
-    background:#fff;
-    border:1px solid #e5eaf0;
-    padding:24px;
-    border-radius:17px;
-    transition:.25s;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:17px;
+  padding:22px;
+  transition:.25s;
 }
 
 .project:hover{
-    transform:translateY(-5px);
-    box-shadow:0 16px 35px rgba(16,24,40,.08);
+  transform:translateY(-4px);
+  box-shadow:0 15px 35px rgba(16,24,40,.08);
 }
 
 .project-icon{
-    width:48px;
-    height:48px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:13px;
-    background:#eff6ff;
-    font-size:23px;
-    margin-bottom:16px;
+  width:47px;
+  height:47px;
+  border-radius:13px;
+  background:#eff6ff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:21px;
+  margin-bottom:14px;
 }
 
 .project h3{
-    font-size:16px;
-    margin-bottom:7px;
+  font-size:15px;
+  margin-bottom:7px;
 }
 
 .project p{
-    color:#667085;
-    font-size:12px;
-    margin-bottom:15px;
+  color:var(--muted);
+  font-size:11px;
+  margin-bottom:12px;
 }
 
 .project ul{
-    list-style:none;
-    margin-bottom:19px;
+  list-style:none;
+  margin-bottom:18px;
 }
 
 .project li{
-    color:#667085;
-    font-size:12px;
-    margin:7px 0;
+  color:var(--muted);
+  font-size:10px;
+  margin:6px 0;
 }
 
-.project li::before{
-    content:"✓";
-    color:#16a34a;
-    font-weight:800;
-    margin-right:7px;
+.project li:before{
+  content:"✓";
+  color:var(--green);
+  margin-right:7px;
+  font-weight:800;
 }
 
 .project .btn{
-    width:100%;
-    padding:11px;
+  width:100%;
 }
 
 /* PROCESS */
+
 .process-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
 }
 
 .step{
-    text-align:center;
+  text-align:center;
 }
 
 .step-number{
-    width:55px;
-    height:55px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:0 auto 15px;
-    border-radius:50%;
-    background:#2563eb;
-    color:#fff;
-    font-weight:800;
+  width:53px;
+  height:53px;
+  border-radius:50%;
+  margin:0 auto 15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--primary);
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
 }
 
 .step h3{
-    font-size:16px;
-    margin-bottom:6px;
+  font-size:14px;
+  margin-bottom:6px;
 }
 
 .step p{
-    color:#667085;
-    font-size:12px;
+  color:var(--muted);
+  font-size:10px;
 }
 
 /* PLANS */
+
 .plans{
-    background:#f7f9fc;
+  background:#f8fafc;
 }
 
 .plan-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
 }
 
 .plan{
-    background:#fff;
-    border:1px solid #e4e9ef;
-    border-radius:20px;
-    padding:28px;
-    position:relative;
+  position:relative;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:19px;
+  padding:27px;
 }
 
 .plan.popular{
-    border:2px solid #2563eb;
-    transform:translateY(-8px);
+  border:2px solid var(--primary);
+  transform:translateY(-7px);
 }
 
-.popular{
-    position:absolute;
-    top:-14px;
-    left:50%;
-    transform:translateX(-50%);
-    background:#2563eb;
-    color:#fff;
-    border-radius:50px;
-    padding:6px 14px;
-    font-size:10px;
-    font-weight:800;
+.popular-tag{
+  position:absolute;
+  top:-14px;
+  left:50%;
+  transform:translateX(-50%);
+  background:var(--primary);
+  color:#fff;
+  padding:5px 13px;
+  border-radius:50px;
+  font-size:9px;
+  font-weight:800;
+  white-space:nowrap;
 }
 
-.plan-label{
-    color:#667085;
-    font-size:12px;
-    font-weight:800;
+.plan-name{
+  color:var(--muted);
+  font-size:10px;
+  font-weight:800;
 }
 
 .plan h3{
-    font-size:21px;
-    margin:8px 0;
+  font-size:20px;
+  margin:6px 0;
 }
 
-.pages{
-    color:#2563eb;
-    font-size:31px;
-    font-weight:800;
+.plan-price{
+  font-size:30px;
+  color:var(--primary);
+  font-weight:800;
+}
+
+.plan-price small{
+  color:var(--muted);
+  font-size:10px;
+  font-weight:500;
 }
 
 .plan ul{
-    list-style:none;
-    margin:20px 0;
+  list-style:none;
+  margin:19px 0;
 }
 
 .plan li{
-    padding:9px 0;
-    border-bottom:1px solid #edf0f4;
-    color:#667085;
-    font-size:12px;
+  padding:8px 0;
+  border-bottom:1px solid #edf0f4;
+  color:var(--muted);
+  font-size:10px;
 }
 
-.plan li::before{
-    content:"✓";
-    color:#16a34a;
-    margin-right:8px;
-    font-weight:800;
+.plan li:before{
+  content:"✓";
+  color:var(--green);
+  margin-right:7px;
+  font-weight:800;
 }
 
 .plan .btn{
-    width:100%;
+  width:100%;
 }
 
 /* BENEFITS */
-.benefit-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:18px;
+
+.benefits-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:17px;
+}
+
+.benefit{
+  border:1px solid var(--border);
+  border-radius:15px;
+  padding:20px;
+}
+
+.benefit-icon{
+  font-size:23px;
+  margin-bottom:9px;
+}
+
+.benefit h3{
+  font-size:13px;
+  margin-bottom:4px;
+}
+
+.benefit p{
+  color:var(--muted);
+  font-size:10px;
 }
 
 /* REVIEWS */
+
 .reviews{
-    background:#f7f9fc;
+  background:#f8fafc;
 }
 
 .review-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
 }
 
 .review{
-    background:#fff;
-    border:1px solid #e7ebf0;
-    border-radius:17px;
-    padding:24px;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:17px;
+  padding:22px;
 }
 
 .stars{
-    color:#f59e0b;
-    margin-bottom:11px;
-    letter-spacing:2px;
+  color:#f59e0b;
+  font-size:13px;
+  margin-bottom:10px;
 }
 
-.review-text{
-    color:#596579;
-    font-size:13px;
-    margin-bottom:18px;
+.review p{
+  color:#596579;
+  font-size:11px;
+  margin-bottom:17px;
 }
 
-.reviewer{
-    display:flex;
-    align-items:center;
-    gap:10px;
+.user{
+  display:flex;
+  align-items:center;
+  gap:9px;
 }
 
 .avatar{
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    background:#e9efff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:#2563eb;
-    font-weight:800;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  background:#e9efff;
+  color:var(--primary);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:800;
 }
 
-.reviewer strong{
-    display:block;
-    font-size:12px;
+.user strong{
+  display:block;
+  font-size:10px;
 }
 
-.reviewer span{
-    color:#667085;
-    font-size:10px;
+.user span{
+  color:var(--muted);
+  font-size:8px;
 }
 
 /* FAQ */
+
 .faq{
-    max-width:800px;
-    margin:auto;
+  max-width:780px;
+  margin:auto;
 }
 
 .faq-item{
-    background:#fff;
-    border:1px solid #e5eaf0;
-    border-radius:13px;
-    margin-bottom:11px;
-    overflow:hidden;
+  border:1px solid var(--border);
+  border-radius:11px;
+  margin-bottom:10px;
+  overflow:hidden;
 }
 
-.question{
-    padding:18px 20px;
-    display:flex;
-    justify-content:space-between;
-    cursor:pointer;
-    font-size:14px;
-    font-weight:800;
+.faq-question{
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  padding:16px 18px;
+  font-size:12px;
+  font-weight:700;
 }
 
-.answer{
-    display:none;
-    padding:0 20px 18px;
-    color:#667085;
-    font-size:12px;
+.faq-answer{
+  display:none;
+  padding:0 18px 17px;
+  color:var(--muted);
+  font-size:10px;
 }
 
-.faq-item.active .answer{
-    display:block;
-}
-
-.plus{
-    font-size:20px;
+.faq-item.active .faq-answer{
+  display:block;
 }
 
 /* CTA */
+
 .cta{
-    padding:65px 0;
+  padding:65px 0;
 }
 
 .cta-box{
-    padding:55px 30px;
-    text-align:center;
-    border-radius:25px;
-    background:linear-gradient(135deg,#1d4ed8,#6d28d9);
-    color:#fff;
-    box-shadow:0 20px 50px rgba(37,99,235,.18);
+  text-align:center;
+  padding:55px 25px;
+  color:#fff;
+  border-radius:24px;
+  background:linear-gradient(135deg,#1d4ed8,#6d28d9);
 }
 
 .cta-box h2{
-    font-size:clamp(28px,4vw,42px);
-    line-height:1.15;
-    margin-bottom:12px;
+  font-size:clamp(28px,4vw,40px);
+  line-height:1.15;
+  margin-bottom:10px;
 }
 
 .cta-box p{
-    max-width:650px;
-    margin:0 auto 25px;
-    color:#e0e7ff;
-    font-size:14px;
+  color:#e0e7ff;
+  max-width:650px;
+  margin:0 auto 23px;
+  font-size:12px;
 }
 
 .cta-box .btn{
-    background:#fff;
-    color:#1d4ed8;
+  background:#fff;
+  color:#1d4ed8;
 }
 
 /* NOTICE */
+
 .notice{
-    margin-top:25px;
-    background:#fff8e7;
-    border:1px solid #f2d58b;
-    padding:18px;
-    border-radius:14px;
+  margin-top:25px;
+  background:#fff8e7;
+  border:1px solid #efd48a;
+  border-radius:14px;
+  padding:18px;
 }
 
 .notice h3{
-    font-size:13px;
-    margin-bottom:6px;
+  font-size:13px;
+  margin-bottom:6px;
 }
 
-.notice p{
-    color:#725b20;
-    font-size:11px;
+.notice li{
+  margin-left:17px;
+  color:#725b20;
+  font-size:10px;
 }
 
 /* FOOTER */
+
 footer{
-    background:#111827;
-    color:#fff;
-    padding:50px 0 25px;
+  background:#111827;
+  color:#fff;
+  padding:48px 0 20px;
 }
 
 .footer-grid{
-    display:grid;
-    grid-template-columns:1.5fr 1fr 1fr;
-    gap:40px;
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr;
+  gap:40px;
 }
 
 footer h3{
-    font-size:15px;
-    margin-bottom:13px;
+  font-size:13px;
+  margin-bottom:12px;
 }
 
 footer p,
 footer a{
-    color:#9ca3af;
-    font-size:12px;
+  color:#9ca3af;
+  font-size:10px;
 }
 
 footer a{
-    display:block;
-    margin:7px 0;
+  display:block;
+  margin:7px 0;
 }
 
 .footer-bottom{
-    border-top:1px solid #273244;
-    margin-top:35px;
-    padding-top:20px;
-    text-align:center;
-    color:#6b7280;
-    font-size:10px;
+  border-top:1px solid #273244;
+  margin-top:35px;
+  padding-top:18px;
+  text-align:center;
+  color:#6b7280;
+  font-size:9px;
 }
 
 /* FLOATING TELEGRAM */
-.floating{
-    position:fixed;
-    right:18px;
-    bottom:18px;
-    z-index:998;
-    background:#229ed9;
-    color:#fff;
-    padding:13px 19px;
-    border-radius:50px;
-    font-size:13px;
-    font-weight:800;
-    box-shadow:0 9px 27px rgba(0,0,0,.2);
+
+.telegram-float{
+  position:fixed;
+  z-index:1000;
+  right:18px;
+  bottom:18px;
+  background:#229ed9;
+  color:white;
+  padding:12px 18px;
+  border-radius:50px;
+  font-size:11px;
+  font-weight:800;
+  box-shadow:0 8px 25px rgba(0,0,0,.2);
 }
 
 /* MOBILE */
+
 @media(max-width:950px){
 
-    .nav-links a:not(.nav-join){
-        display:none;
-    }
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
 
-    .hero-grid{
-        grid-template-columns:1fr;
-    }
+  .project-grid,
+  .benefits-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
 
-    .project-grid,
-    .about-grid,
-    .benefit-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
+  .process-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
 
-    .process-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
+  .plan-grid{
+    grid-template-columns:1fr;
+    max-width:520px;
+    margin:auto;
+  }
 
-    .plan-grid{
-        grid-template-columns:1fr;
-        max-width:520px;
-        margin:auto;
-    }
+  .plan.popular{
+    transform:none;
+  }
 
-    .plan.popular{
-        transform:none;
-    }
-
-    .review-grid{
-        grid-template-columns:1fr;
-    }
+  .review-grid{
+    grid-template-columns:1fr;
+  }
 }
 
 @media(max-width:600px){
 
-    .hero{
-        padding:55px 0;
-    }
+  .nav-links a:not(.nav-cta){
+    display:none;
+  }
 
-    section{
-        padding:60px 0;
-    }
+  .hero{
+    padding:55px 0;
+  }
 
-    .hero h1{
-        font-size:38px;
-    }
+  section{
+    padding:60px 0;
+  }
 
-    .buttons{
-        flex-direction:column;
-    }
+  .hero h1{
+    font-size:38px;
+  }
 
-    .buttons .btn{
-        width:100%;
-    }
+  .buttons{
+    flex-direction:column;
+  }
 
-    .stats-grid{
-        grid-template-columns:1fr;
-        gap:15px;
-    }
+  .buttons .btn{
+    width:100%;
+  }
 
-    .project-grid,
-    .about-grid,
-    .benefit-grid,
-    .process-grid{
-        grid-template-columns:1fr;
-    }
+  .stats-grid{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
 
-    .footer-grid{
-        grid-template-columns:1fr;
-        gap:25px;
-    }
+  .project-grid,
+  .benefits-grid,
+  .process-grid{
+    grid-template-columns:1fr;
+  }
 
-    .floating{
-        left:15px;
-        right:15px;
-        bottom:12px;
-        text-align:center;
-    }
+  .footer-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+  }
 
-    .cta-box{
-        padding:40px 20px;
-    }
+  .telegram-float{
+    left:15px;
+    right:15px;
+    text-align:center;
+  }
 }
 </style>
 </head>
@@ -803,519 +834,454 @@ footer a{
 <body>
 
 <header>
-<div class="container nav">
+  <div class="container nav">
 
-<a href="#" class="logo">
-<div class="logo-icon">✍</div>
-<span>Work From Home</span>
-</a>
+    <a href="#" class="logo">
+      <div class="logo-icon">✍</div>
+      <span>WORK FROM HOME</span>
+    </a>
 
-<nav class="nav-links">
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#plans">Plans</a>
-<a href="#faq">FAQ</a>
+    <nav class="nav-links">
+      <a href="#about">About Us</a>
+      <a href="#projects">Projects</a>
+      <a href="#plans">Plans</a>
+      <a href="#faq">FAQs</a>
 
-<a class="nav-join telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Join Now
-</a>
-</nav>
+      <a
+        href="https://t.me/+9YvqkWTt3I5jNzRl"
+        target="_blank"
+        rel="noopener"
+        class="nav-cta">
+        Apply Now
+      </a>
+    </nav>
 
-</div>
+  </div>
 </header>
 
 
-<!-- HERO -->
 <section class="hero">
 
-<div class="container hero-grid">
+  <div class="container hero-grid">
 
-<div>
+    <div>
 
-<div class="badge">
-● Flexible Remote Opportunities
-</div>
+      <div class="badge">
+        ● Work From Home Opportunities
+      </div>
 
-<h1>
-Work From Home With
-<span>Typing & Writing Projects</span>
-</h1>
+      <h1>
+        Typing & Writing
+        <span>Work From Home</span>
+      </h1>
 
-<p class="hero-text">
-Explore flexible home-based typing, writing, PDF conversion
-and proofreading projects. Review the project information
-and choose work according to your skills and availability.
-</p>
+      <p class="hero-text">
+        Explore various typing, writing, PDF conversion and
+        proofreading projects that can be completed remotely
+        according to your availability.
+      </p>
 
-<div class="buttons">
+      <div class="buttons">
 
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-✈ Join Telegram Channel
-</a>
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          ✈ Apply Now
+        </a>
 
-<a class="btn btn-light" href="#projects">
-Explore Projects →
-</a>
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-secondary">
+          Join Telegram Channel
+        </a>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
 
-<div class="hero-card">
+    <div class="hero-card">
 
-<div class="card-head">
+      <div class="hero-card-title">
 
-<div class="card-icon">💼</div>
+        <div class="hero-icon">💼</div>
 
-<div>
-<h3>Remote Work Projects</h3>
-<p>Explore available categories</p>
-</div>
+        <div>
+          <h3>Remote Work Projects</h3>
+          <small>Current project categories</small>
+        </div>
 
-</div>
+      </div>
 
-<div class="hero-items">
+      <div class="project-status">
 
-<div class="hero-item">
-<span>📚 Book Typing</span>
-<span class="available">Available</span>
-</div>
+        <div class="status-row">
+          <span>📚 Book Typing</span>
+          <span class="available">Available</span>
+        </div>
 
-<div class="hero-item">
-<span>✍️ Content Writing</span>
-<span class="available">Available</span>
-</div>
+        <div class="status-row">
+          <span>✍️ Content Writing</span>
+          <span class="available">Available</span>
+        </div>
 
-<div class="hero-item">
-<span>📄 PDF Conversion</span>
-<span class="available">Available</span>
-</div>
+        <div class="status-row">
+          <span>📄 PDF Conversion</span>
+          <span class="available">Available</span>
+        </div>
 
-<div class="hero-item">
-<span>🔍 Proofreading</span>
-<span class="available">Available</span>
-</div>
+        <div class="status-row">
+          <span>🔍 Proofreading</span>
+          <span class="available">Available</span>
+        </div>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-</div>
+  </div>
+
 </section>
 
 
-<!-- STATS -->
 <div class="stats">
 
-<div class="container stats-grid">
+  <div class="container stats-grid">
 
-<div class="stat">
-<h3>4+</h3>
-<p>Project Categories</p>
+    <div class="stat">
+      <h3>4+</h3>
+      <p>Project Categories</p>
+    </div>
+
+    <div class="stat">
+      <h3>100%</h3>
+      <p>Remote Workflow</p>
+    </div>
+
+    <div class="stat">
+      <h3>24/7</h3>
+      <p>Online Information</p>
+    </div>
+
+  </div>
+
 </div>
 
-<div class="stat">
-<h3>100%</h3>
-<p>Remote Workflow</p>
-</div>
 
-<div class="stat">
-<h3>24/7</h3>
-<p>Information Access</p>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- ABOUT -->
 <section id="about">
 
-<div class="container">
+  <div class="container">
 
-<div class="section-head">
+    <div class="section-heading">
 
-<div class="section-label">About Us</div>
+      <div class="label">About Us</div>
 
-<h2>Flexible Work From Home Opportunities</h2>
+      <h2>About Our Work From Home Platform</h2>
 
-<p>
-Explore different remote project categories and review
-their requirements before applying.
-</p>
+      <p>
+        Explore different home-based typing and writing projects
+        and select assignments according to your availability.
+      </p>
 
-</div>
+    </div>
 
+    <div class="about-box">
 
-<div class="about-grid">
+      <h3>Flexible Remote Projects</h3>
 
-<div class="info-card">
-<div class="info-icon">🏠</div>
-<h3>Work From Home</h3>
-<p>Explore projects that can be completed remotely.</p>
-</div>
+      <p>
+        We provide information about typing, writing, PDF conversion
+        and proofreading projects. Participants can review project
+        requirements and instructions before applying.
+      </p>
 
-<div class="info-card">
-<div class="info-icon">⏰</div>
-<h3>Flexible Schedule</h3>
-<p>Choose projects according to your availability.</p>
-</div>
+    </div>
 
-<div class="info-card">
-<div class="info-icon">📱</div>
-<h3>Mobile Friendly</h3>
-<p>Access the platform comfortably from mobile devices.</p>
-</div>
-
-<div class="info-card">
-<div class="info-icon">💬</div>
-<h3>Telegram Support</h3>
-<p>Receive project information through the Telegram channel.</p>
-</div>
-
-</div>
-
-</div>
+  </div>
 
 </section>
 
 
-<!-- PROJECTS -->
-<section id="projects" class="projects">
+<section class="projects" id="projects">
 
-<div class="container">
+  <div class="container">
 
-<div class="section-head">
+    <div class="section-heading">
 
-<div class="section-label">Projects Available</div>
+      <div class="label">What We Offer</div>
 
-<h2>Choose Your Project</h2>
+      <h2>Projects Available</h2>
 
-<p>
-Explore different typing, writing and document-related
-project categories.
-</p>
+      <p>
+        Choose from different remote project categories.
+      </p>
 
-</div>
+    </div>
 
 
-<div class="project-grid">
-
-<div class="project">
-
-<div class="project-icon">📚</div>
-
-<h3>Book Typing Project</h3>
-
-<p>
-Convert provided printed pages into editable digital
-documents while maintaining formatting.
-</p>
-
-<ul>
-<li>Flexible workflow</li>
-<li>Formatting instructions</li>
-<li>Remote project</li>
-</ul>
-
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply Now
-</a>
-
-</div>
+    <div class="project-grid">
 
 
-<div class="project">
+      <div class="project">
 
-<div class="project-icon">✍️</div>
+        <div class="project-icon">📚</div>
 
-<h3>Content Writing</h3>
+        <h3>Book Typing Project</h3>
 
-<p>
-Create articles and documents according to the
-provided project guidelines.
-</p>
+        <p>
+          Convert printed books into editable digital documents
+          while maintaining proper formatting.
+        </p>
 
-<ul>
-<li>Writing assignments</li>
-<li>Project guidelines</li>
-<li>Remote workflow</li>
-</ul>
+        <ul>
+          <li>Flexible work schedule</li>
+          <li>Telegram support</li>
+        </ul>
 
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply Now
-</a>
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply Now
+        </a>
 
-</div>
-
-
-<div class="project">
-
-<div class="project-icon">📄</div>
-
-<h3>PDF To Word</h3>
-
-<p>
-Convert provided PDF documents into editable
-documents while maintaining accuracy.
-</p>
-
-<ul>
-<li>Document conversion</li>
-<li>Formatting work</li>
-<li>Remote workflow</li>
-</ul>
-
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply Now
-</a>
-
-</div>
+      </div>
 
 
-<div class="project">
+      <div class="project">
 
-<div class="project-icon">🔍</div>
+        <div class="project-icon">✍️</div>
 
-<h3>Proofreading</h3>
+        <h3>Content Writing Project</h3>
 
-<p>
-Review documents for spelling, grammar, punctuation
-and formatting issues.
-</p>
+        <p>
+          Write articles and documents based on provided
+          guidelines and instructions.
+        </p>
 
-<ul>
-<li>Document review</li>
-<li>Quality checking</li>
-<li>Remote workflow</li>
-</ul>
+        <ul>
+          <li>Flexible work schedule</li>
+          <li>Telegram support</li>
+        </ul>
 
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply Now
-</a>
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply Now
+        </a>
 
-</div>
+      </div>
 
-</div>
 
-</div>
+      <div class="project">
+
+        <div class="project-icon">📄</div>
+
+        <h3>PDF to Word Conversion</h3>
+
+        <p>
+          Convert PDF files into editable documents with
+          attention to accuracy.
+        </p>
+
+        <ul>
+          <li>Flexible work schedule</li>
+          <li>Telegram support</li>
+        </ul>
+
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply Now
+        </a>
+
+      </div>
+
+
+      <div class="project">
+
+        <div class="project-icon">🔍</div>
+
+        <h3>Proofreading Project</h3>
+
+        <p>
+          Review documents for grammar, spelling, punctuation
+          and formatting corrections.
+        </p>
+
+        <ul>
+          <li>Flexible work schedule</li>
+          <li>Telegram support</li>
+        </ul>
+
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply Now
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </section>
 
 
-<!-- PROCESS -->
 <section>
 
-<div class="container">
+  <div class="container">
 
-<div class="section-head">
+    <div class="section-heading">
 
-<div class="section-label">Process</div>
+      <div class="label">Process</div>
 
-<h2>How It Works</h2>
+      <h2>How It Works</h2>
 
-<p>
-A simple four-step process to explore and apply for projects.
-</p>
+      <p>
+        Start your journey in a few simple steps.
+      </p>
 
-</div>
-
-
-<div class="process-grid">
-
-<div class="step">
-<div class="step-number">01</div>
-<h3>Join Telegram</h3>
-<p>Join the channel to receive current project information.</p>
-</div>
-
-<div class="step">
-<div class="step-number">02</div>
-<h3>Get Details</h3>
-<p>Review project requirements and instructions carefully.</p>
-</div>
-
-<div class="step">
-<div class="step-number">03</div>
-<h3>Choose Work</h3>
-<p>Select a project that matches your skills.</p>
-</div>
-
-<div class="step">
-<div class="step-number">04</div>
-<h3>Complete & Submit</h3>
-<p>Complete the assigned work according to instructions.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
+    </div>
 
 
-<!-- PLANS -->
-<section id="plans" class="plans">
+    <div class="process-grid">
 
-<div class="container">
+      <div class="step">
+        <div class="step-number">01</div>
+        <h3>Join Our Telegram</h3>
+        <p>Click Apply Now and join the Telegram channel.</p>
+      </div>
 
-<div class="section-head">
+      <div class="step">
+        <div class="step-number">02</div>
+        <h3>Get Project Details</h3>
+        <p>Receive project guidelines and instructions.</p>
+      </div>
 
-<div class="section-label">Project Plans</div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <h3>Choose Your Work</h3>
+        <p>Select an available project.</p>
+      </div>
 
-<h2>Choose Your Project Plan</h2>
+      <div class="step">
+        <div class="step-number">04</div>
+        <h3>Complete & Submit</h3>
+        <p>Complete and submit your assigned work.</p>
+      </div>
 
-<p>
-Project requirements and terms can vary. Review current
-details before applying.
-</p>
+    </div>
 
-</div>
-
-
-<div class="plan-grid">
-
-
-<div class="plan">
-
-<div class="plan-label">PLAN 01</div>
-
-<h3>Starter Typing</h3>
-
-<div class="pages">50 Pages</div>
-
-<ul>
-<li>Estimated duration: 7 Days</li>
-<li>Book typing project</li>
-<li>Remote workflow</li>
-<li>Project instructions</li>
-<li>Telegram support</li>
-</ul>
-
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply For Plan 01
-</a>
-
-</div>
-
-
-<div class="plan plan-middle">
-
-<div class="popular">MOST POPULAR</div>
-
-<div class="plan-label">PLAN 02</div>
-
-<h3>Standard Typing</h3>
-
-<div class="pages">80 Pages</div>
-
-<ul>
-<li>Estimated duration: 10 Days</li>
-<li>Book typing project</li>
-<li>Remote workflow</li>
-<li>Project instructions</li>
-<li>Telegram support</li>
-</ul>
-
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply For Plan 02
-</a>
-
-</div>
-
-
-<div class="plan">
-
-<div class="plan-label">PLAN 03</div>
-
-<h3>Advanced Typing</h3>
-
-<div class="pages">120 Pages</div>
-
-<ul>
-<li>Estimated duration: 15 Days</li>
-<li>Book typing project</li>
-<li>Remote workflow</li>
-<li>Project instructions</li>
-<li>Telegram support</li>
-</ul>
-
-<a class="btn btn-primary telegram-link"
-href="https://t.me/+9YvqkWTt3I5jNzRl"
-target="_blank"
-rel="noopener">
-Apply For Plan 03
-</a>
-
-</div>
-
-</div>
-
-
-<div class="notice">
-
-<h3>Important Notice</h3>
-
-<p>
-Please review all project requirements, deadlines,
-payment terms and any applicable charges before
-proceeding. Project availability and compensation
-depend on the actual project terms and completion
-of assigned work.
-</p>
-
-</div>
-
-</div>
+  </div>
 
 </section>
 
 
-<!-- BENEFITS -->
-<section>
+<section class="plans" id="plans">
 
-<div class="container">
+  <div class="container">
 
-<div class="section-head">
+    <div class="section-heading">
 
-<div class="section-label">Benefits</div>
+      <div class="label">Project Plans</div>
 
-<h2>Why Explore Our Projects?</h2>
+      <h2>Choose Your Project Plan</h2>
 
-<p>
-A simple platform designed for people looking for remote
-typing and document-related opportunities.
-</p>
+      <p>
+        Review all project terms before applying.
+      </p>
 
-</div>
+    </div>
 
 
-<div class="benefit-grid">
+    <div class="plan-grid">
 
-<div class="info-card
+
+      <div class="plan">
+
+        <div class="plan-name">PLAN 01</div>
+
+        <h3>Starter Plan</h3>
+
+        <div class="plan-price">
+          50 Pages
+          <small>project</small>
+        </div>
+
+        <ul>
+          <li>50 Pages / 100 Slides</li>
+          <li>Estimated duration: 7 Days</li>
+          <li>Project instructions</li>
+          <li>Telegram support</li>
+          <li>Remote workflow</li>
+        </ul>
+
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply for Plan 01
+        </a>
+
+      </div>
+
+
+      <div class="plan popular">
+
+        <div class="popular-tag">
+          ⭐ MOST POPULAR
+        </div>
+
+        <div class="plan-name">PLAN 02</div>
+
+        <h3>Standard Plan</h3>
+
+        <div class="plan-price">
+          80 Pages
+          <small>project</small>
+        </div>
+
+        <ul>
+          <li>80 Pages / 160 Slides</li>
+          <li>Estimated duration: 10 Days</li>
+          <li>Project instructions</li>
+          <li>Priority support</li>
+          <li>Remote workflow</li>
+        </ul>
+
+        <a
+          href="https://t.me/+9YvqkWTt3I5jNzRl"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary">
+          Apply for Plan 02
+        </a>
+
+      </div>
+
+
+      <div class="plan">
+
+        <div class="plan-name">PLAN 03</div>
+
+        <h3>Advanced Plan</h3>
+
+        <div class="plan-price">
+          120 Pages
+          <small>project</small>
+        </div>
+          
